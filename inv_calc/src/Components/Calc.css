@@ -1,0 +1,86 @@
+#calc_page{
+ 
+  text-align: center;
+}
+#Calc-header-section h1{
+  text-align: center;  
+  margin-left: 10%;
+}
+#Calc-header-section img{
+    width: 15%;
+    height: 15%;
+}
+#display-col{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10%;
+}
+#user-input {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .input-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-group input {
+        width: auto;
+    }
+}
+
+#result-data-intable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#result-data-intable th,
+#result-data-intable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#result-data-intable th {
+  background-color: #f2f2f2;
+}
+
+#result-data-intable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#result-data-intable tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  #result-data-intable {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scroll for small screens */
+  }
+}
